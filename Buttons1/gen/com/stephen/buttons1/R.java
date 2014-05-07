@@ -16,7 +16,6 @@ public final class R {
     }
     public static final class id {
         public static final int lbutton=0x7f060000;
-        public static final int rbutton=0x7f060001;
     }
     public static final class layout {
         public static final int activity_buttons1=0x7f030000;
@@ -24,6 +23,7 @@ public final class R {
     public static final class string {
         public static final int app_name=0x7f040000;
         public static final int hello_world=0x7f040001;
+        public static final int left_button=0x7f040002;
     }
     public static final class style {
         /** 
