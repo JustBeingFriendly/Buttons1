@@ -5,42 +5,6 @@
     tools:context="${packageName}.${activityClass}" >
     
     
-<!-- 	
-    <FrameLayout
-        android:layout_width="match_parent"
-   		android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" 
-        android:layout_gravity="bottom">
-
-        <Button
-            android:id="@+id/lbutton"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-           
-            android:text="LButton" />
-
-        <Button
-            android:id="@+id/rbutton"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RButton" />
-
-    </FrameLayout>
--->
-
-    <Button
-        android:id="@+id/lbutton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="22dp"
-        android:layout_marginLeft="18dp"
-        android:text="@string/left_button" />
 
     <com.stephen.buttons1.AnimationView
         android:id="@+id/animationView1"
@@ -48,5 +12,38 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/cbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/centre_button"
+        android:alpha="0.25" />
+    
+    
+    <Button
+        android:id="@+id/rbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/right_button"
+         android:alpha="0.25" />
+
+    <Button
+        android:id="@+id/lbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/left_button"
+         android:alpha="0.25" />
+    
+
 
 </RelativeLayout>
