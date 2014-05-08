@@ -27,15 +27,17 @@ public class AnimationView extends SurfaceView implements Runnable, SurfaceHolde
 	
 	public AnimationView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        spaceShip = BitmapFactory.decodeResource(getResources(), R.drawable.craftmain);
         getHolder().addCallback(this);
         // TODO Auto-generated constructor stub
     }
 
-    public AnimationView(Context context, AttributeSet attrs, int defStyle) {
+ /*   public AnimationView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+        spaceShip = BitmapFactory.decodeResource(getResources(), R.drawable.craftmain);
         getHolder().addCallback(this);
         // TODO Auto-generated constructor stub
-    }
+   } */
 
 	
 	@Override
@@ -85,14 +87,13 @@ public class AnimationView extends SurfaceView implements Runnable, SurfaceHolde
 				yPos+=5;
 			}
 			
-			try 
+			/*try 
 			{
 				Thread.sleep(40);
-			}
-			catch(InterruptedException e)
+			}		catch(InterruptedException e)
 			{
 				e.printStackTrace();
-			}
+			}*/
 			holder.unlockCanvasAndPost(canvas);			
 		}		
 	}
